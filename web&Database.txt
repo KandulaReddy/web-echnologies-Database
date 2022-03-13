@@ -1,0 +1,605 @@
+<--------Bootstrap-------->
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <title>This is a Bootstrap example</title>  
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>  
+<body>  
+<div class="container">  
+  <h1> INTRODUCTION TO BOOTSTRAP</h1> 
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae earum vitae impedit porro magnam possimus? Atque, necessitatibus voluptatibus repellat numquam placeat quos beatae nulla? Animi quisquam sequi fuga nesciunt magni?</p> 
+    
+</div>
+<div class="container-fluid">  
+    <h1> INTRODUCTION TO BOOTSTRAP</h1>  
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab exercitationem rerum architecto vel beatae expedita nisi enim fuga, quasi dolor sint odit perspiciatis dolorem recusandae aperiam labore placeat dolorum quibusdam.</p>     
+</div>
+ 
+  
+
+</body>  
+</html>  
+
+ <-------HTML----------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>HTML TAGS</title>
+    <link rel="stylesheet" href="mystyle.css">   
+</head>
+
+<body>
+  
+    <!--heading tags(h1 to h6)-->
+    <h1>
+        Heading 1
+    </h1>
+    <h6>
+        Heading 6
+    </h6>
+    <p><img class="fl" height="100px" width="100px" src="images/img5.jpg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores esse earum harum molestias repellat reprehenderit optio magni nihil saepe tempora asperiores doloribus neque dolorum quibusdam, quo nisi repellendus et at.</p>
+    <br>
+    <br>
+    <!--list(ordered,unordered,definition)-->
+    <ol type="A">
+        <li>HTML</li>
+        <li>CSS</li>
+    </ol>
+    <ul type="circle">
+        <li>HTML</li>
+        <li>CSS</li>
+    </ul>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language</dd>
+        <dt>css</dt>
+        <dd>cascading stylesheet</dd>
+    </dl>
+    <!--anchor tag-->
+    <a href="https://in.yahoo.com/" title="Yahoo" target="_blank">Yahoo</a>
+    <!--image-->
+    <br>
+    <img src="images/img2.jpg" style="height: 300px;width: 300px;" alt="HTML" />
+    <br>
+    <!--audio tag-->
+    <audio controls autoplay muted>
+        <source src="images/SampleAudio.mp3" type="audio/mp3">
+    </audio>
+    <br>
+    <!--video tag-->
+    <video width="600" controls poster="images/img2.jpg">
+        <source src="images/SampleVideo.mp4" type="video/mp4">
+    </video>
+    <br>
+    <!--iframe-->
+    <iframe src="Sample.html" height="200" width="200"></iframe>
+    <br>
+    <iframe src="Sample.html" height="200" width="200" name="ibm"></iframe>
+    <br>
+    <a href="https://www.ibm.com/in-en?utm_content=SRCWW&p1=Search&p4=43700057196640827&p5=e&gclid=EAIaIQobChMIh5zY5JO49gIVkjArCh1XhQSuEAAYASAAEgKDCvD_BwE&gclsrc=aw.ds"
+        target="ibm">IBM</a>
+    <br>
+    <!--tables-->
+    <table border="1">
+        <caption>IBM Trainees</caption>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>><td>John</td>
+            </tr>
+            <tr>
+                <td>2</td>><td>Peter</td>
+            </tr>
+            <tr>
+                <td>3</td>><td>Sam</td>
+            </tr>
+            <tr>
+                <td>4</td>><td>Jancy</td>
+            </tr>
+            <tr>
+                <td>5</td>><td>Nancy</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Entities and emojies-->
+
+    &lt;Hello&gt;
+    <br>
+    &quot;
+    <br>
+    &amp;
+    <br>
+    &#128512;
+    <!--p tag and pre tag-->
+    <p>IBM Cloud® offers the most open and secure public cloud for business,
+        a next-generation hybrid multicloud platform, advanced data and AI capabilities, and deep enterprise expertise
+        across 20 industries.</p>
+    <br>
+    <pre class="cid">IBM Cloud® offers the most open and secure public
+         cloud for business, a next-generation 
+         hybrid multicloud platform,
+         advanced data and AI capabilities, 
+         and deep enterprise expertise across 20 
+         industries.</pre>
+         <p id="pid">Para 1</p>
+         <p>Para 2</p>
+         <h2>Grouping selector</h2>
+         <h3>Grouping selector</h3>
+
+         <br>
+         <hr>
+         <p class="border">Border</p>
+
+         <h4>PseudoElements... Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi corrupti numquam sed labore debitis exercitationem blanditiis eveniet minima quisquam? Dolore, tempora inventore ab unde quidem atque qui quaerat quasi accusantium.</h4>
+
+         <div>
+             Box shadow
+         </div>
+
+        <br>
+        <hr>
+       <!-- <img class="eff" src="images/img1.jpg">-->
+        <br>
+        <div class="ani" ></div>
+
+    </body>
+
+</html>
+<--------------CSS------------>
+body 
+{
+  background-image: url("images/img3.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  color:blue;
+}
+
+h1 
+{
+  color: navy;
+  text-align: center;
+}
+
+h6
+{
+    text-align: right;
+    color: aquamarine;
+    background: #FC5C7D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    
+}
+
+ul li
+{
+color: red;
+}
+
+ol li
+{
+color:chartreuse
+}
+
+dl dt
+{
+    color:darkgreen;
+}
+
+dl dd
+{
+    color: aqua;
+}
+
+a
+{
+    color: aqua;
+    font-size: larger;
+    text-decoration-color: blue;
+
+}
+
+table caption
+{
+    color: brown;
+}
+
+table thead
+{
+    color: blueviolet;
+}
+table td
+{
+    color: antiquewhite;
+}
+p
+{
+    color: darkorange;
+}
+
+#pid
+{
+    color: blueviolet;
+    text-shadow: 
+    5px 3px 2px red, 
+    7px 4px 2px rgb(229, 255, 0),
+    3px 2px 2px rgb(0, 4, 255);
+}
+
+.cid
+{
+    color: yellow;
+}
+
+h2,h3
+{
+    background-color: azure;
+    color: aquamarine;
+
+}
+
+.border
+{
+    background-color: blueviolet;
+    opacity: 0.3;
+    outline-style: groove;
+    outline-color: aqua;
+    outline-offset: 2px;
+    border-style:dotted solid ridge inset;
+    border-color: blue yellow greenyellow red;
+    border-radius: 3px 5px 10px 5px;
+}
+
+h4::first-letter
+{
+color: blueviolet;
+
+}
+h4::first-line
+{
+    color: yellow;
+}
+
+::selection
+{
+    color: pink;
+}
+
+::marker
+{
+    color:aqua
+}
+
+h1::after
+{
+    content:url("images/img6.jpg");
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background: #40E0D0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color:rgb(115, 255, 0);
+    box-shadow: 5px 2px 3px red,
+    7px 4px 3px rgb(255, 0, 242);
+}
+
+/*.eff
+{
+    transition: width 5s;
+    transition: height 3s ease-in-out;
+}*/
+.eff
+{
+    height:50px;
+    width:50px;
+    transition: width 1s,height 1s,transform 2s;
+}
+
+.eff:hover
+{
+    height:70px;
+    width:70px;
+    transform: rotate(360deg);
+}
+
+.ani
+{
+    height:50px;
+    width:50px;
+    position:relative;
+    animation-name: ibm;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes ibm
+{
+    0% {  background-color:green; left:50px;}
+    25%{ background-color:rgb(235, 80, 19);bottom:100px;}
+    50%{ background-color:rgb(128, 0, 70);bottom: 30px;}
+    75%{ background-color:rgb(217, 230, 217);right:30px}
+    100%{ background-color:rgb(13, 0, 128);top:20px}
+}
+
+.fl
+{
+    float:right;
+}
+
+<-------------------SQL----------------->
+create database IBM
+use IBM
+
+
+create table IBMTrainees
+(
+TID int Primary key,
+TName varchar(25) Unique not null,
+Designation varchar(25) default 'Trainee',
+Age int check(Age<24)
+)
+
+
+insert into IBMTrainees values(1,'John','HR',22)
+insert into IBMTrainees values(2,'Peter','HR',23)
+insert into IBMTrainees values(3,'Sam','Developer',22)
+insert into IBMTrainees(TID,TName,Age) values(4,'Jancy',22)
+
+
+Select * from IBMTrainees
+Select TID,TName from IBMTrainees
+Select * from IBMTrainees where Designation='HR'
+Select * from IBMTrainees where AGE<23
+Select * from IBMTrainees where AGE<23 and Designation='Developer'
+Select * from IBMTrainees where TName like 'J%'
+Select * from IBMTrainees where TName like '_a%'
+Select * from IBMTrainees where TName like '%y'
+Select * from IBMTrainees where TName like '[A-J]%'
+Select * from IBMTrainees where TName not like '[A-J]%'
+Select * from IBMTrainees where age between 20 and 22
+
+create table dept
+(
+Dno int Primary key,
+Dname varchar(25),
+)
+
+insert into dept values(1,'HR')
+insert into dept values(2,'Trainer')
+insert into dept values(3,'Developer')
+insert into dept values(4,'Designer')
+
+select * from dept
+
+--employee(child- foreign key)
+create table emp
+(
+Eid int Primary key,
+Ename varchar(25),
+Did int foreign key references dept(Dno)
+)
+
+insert into emp values(100,'John',1)
+insert into emp values(101,'Peter',1)
+
+--delete
+
+delete from dept where Dno=1
+delete from emp where Did=1
+
+--update
+update dept set Dname='Testing' where Dno=2
+select * from dept
+
+--Demo table
+create table demo
+(
+id int primary key,
+name varchar(25),
+dept varchar(25)
+)
+
+select * from demo
+
+--add a column to demo
+alter table demo add dept int;
+
+--drop a column
+alter table demo drop column dept;
+
+insert into demo values(1,'John',25000)
+insert into demo values(2,'John1',26000)
+insert into demo values(3,'John2',27000)
+insert into demo values(4,'John3',28000)
+
+delete from demo where id=1
+
+truncate table demo
+
+drop table demo
+
+--Joins
+--combining records from two or more table based on a common column
+--inner join,right outer join,left outer join ,full outer join,cross join
+
+create table one
+(
+id int primary key,
+name varchar(25),
+designation varchar(25),
+salary int
+)
+
+create table two
+(
+did int primary key,
+dname varchar(25),
+eid int foreign key references one(id)
+)
+
+insert into one values(1,'chay','HR',29456)
+insert into one values(2,'chay1','Dev',23454)
+insert into one values(3,'chay2','Des',23756)
+insert into one values(4,'chay3','Test',28456)
+insert into one values(5,'chay4','HR',22456)
+
+insert into two values(100,'Developer',1)
+insert into two values(101,'Designer',4)
+insert into two values(102,'Testing',5)
+
+ select * from one;
+ select * from two;
+
+ --inner join
+
+ select o.id,o.name,t.did,t.dname from one o inner join two t on o.id=t.eid;
+ select o.id,o.name,t.did,t.dname from one o left join two t on o.id=t.eid;
+ select o.id,o.name,t.did,t.dname from one o right join two t on o.id=t.eid;
+ select o.id,o.name,t.did,t.dname from one o full join two t on o.id=t.eid;
+ select * from one;
+ select * from two;
+
+ create table one1
+(
+id int,
+name varchar(25),
+designation varchar(25),
+salary int
+)
+
+create table two1
+(
+did int,
+dname varchar(25),
+eid int 
+)
+
+insert into one1 values(1,'chay','HR',29456)
+insert into one1 values(2,'chay1','Dev',23454)
+insert into one1 values(3,'chay2','Des',23756)
+insert into one1 values(4,'chay3','Test',28456)
+insert into one1 values(5,'chay4','HR',22456)
+
+insert into two1 values(100,'Developer',1)
+insert into two1 values(101,'Designer',6)
+insert into two1 values(102,'Testing',5)
+insert into two1 values(102,'Testing',7)
+
+ select * from one1;
+ select * from two1;
+
+ select o.id,o.name,t.did,t.dname from one1 o full join two1 t on o.id=t.eid;
+ select o.id,o.name,t.did,t.dname from one1 o left join two1 t on o.id=t.eid;
+ select o.id,o.name,t.did,t.dname from one1 o right join two1 t on o.id=t.eid;
+
+ --Aggregate functions
+--min , max, avg,sum, count
+
+select * from one1
+
+select max(salary) as 'Maximum Salary' from one1
+select max(salary) as MaximumSalary from one1
+select max(salary),min(salary),count(salary),sum(salary),avg(salary) from one1
+
+insert into one1 values(6,'chaitanya','HR',29456)
+insert into one1 values(7,'chaitanya1','Dev',23454)
+insert into one1 values(8,'chaitanya2','Des',23756)
+insert into one1 values(9,'chaitanya3','Test',28456)
+insert into one1 values(10,'chaitanya4','HR',22456)
+
+select max(salary) from one1
+
+--group by clause-->aggregate functions
+select max(salary),designation,name from one1 group by designation,name
+
+select * from one1
+
+--order by clause
+
+select * from one1 order by salary desc
+
+select * from one1 order by designation,salary 
+
+--Function-subprogram->perform an action
+--Pre-defined
+--User-defined
+	-->Scalar - return a single value
+	-->inline table value - return table - single statement
+	-->Multi-statement table value - multiple statements - returns table
+
+-->Scalar
+use ibm
+
+create function cal_cube(@a int)
+returns int
+as
+	begin
+		return @a*@a*@a
+	end
+
+select dbo.cal_cube(2) as Result
+
+create function cal_age(@dob date)  
+returns int
+as
+	begin
+		declare @age int
+		set @age=DATEDIFF(year,@dob,GETDATE())
+		return @age
+	end
+
+select dbo.cal_age('01/01/2000') as Age
+
+select * from IBMTrainees
+-->Inline table value 
+create function Fun_des(@desig varchar(25))
+returns table
+as
+	return(select * from IBMTrainees where Designation=@desig)
+
+select * from Fun_des('HR')
+select * from Fun_des('Developer')
+
+-->multi-statement table valued
+create function Fun_IBMT()
+returns @tbl table(TraineeID int, TraineeName varchar(25))
+as	
+	begin
+		insert into @tbl
+		select TID,TName from IBMTrainees;
+		return
+	end
+
+select * from Fun_IBMT()
+
+--Stored Procedure- Group of one or more pre-compiled queries(improve performance)
+
+-->Pre and User-defined
+
+create procedure sp_IBMDES
+as
+	begin
+		select Designation from IBMTrainees
+	end
+
+exec sp_IBMDES
